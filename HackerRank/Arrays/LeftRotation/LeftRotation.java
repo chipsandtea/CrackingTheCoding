@@ -4,7 +4,7 @@ import java.text.*;
 import java.math.*;
 import java.util.regex.*;
 
-public class Solution {
+public class LeftRotation {
 
     public static int[] arrayLeftRotation(int[] data, int numOf, int rotateBy) {
       int toShift = rotateBy%numOf;
